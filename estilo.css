@@ -1,0 +1,19 @@
+header{
+    background-color: #bb5151;
+}
+.navboton{
+    background-color: #d8a4a4;
+}
+.rayaenlace{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+body{
+    background-color: #ede5e0;
+}
+footer{
+    background-color: #bb5151;
+}
