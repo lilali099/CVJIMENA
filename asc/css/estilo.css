@@ -1,0 +1,100 @@
+header{
+    background-color: #bb5151;
+    width: 1440px;
+    height: 160px;
+    flex-shrink: 0;
+
+}
+.navboton{
+    background-color: #d8a4a4;
+    width: 196px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    justify-content: center;
+}
+.rayaenlace{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    gap: 140px;
+}
+body{
+    background-color: #ede5e0;
+    width: 818px;
+    height: 248px;
+    flex-shrink: 0;
+    color: var(#0E0D0D);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+}
+footer{
+    background-color: #bb5151;
+    width: 1440px;
+    height: 100px;
+}
+
+h1{
+    width: 768px;
+height: 144px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 48px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+img{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.rectangle-24 {
+    background: #b25353;
+    width: 946px;
+    height: 360px;
+    position: relative;
+}
+
+
+.nombre-y-apelldo-fernandez-jimena-dni-41459611-direccion-paris-1444-celular-1153376302-mail-jimenafernandez-2010-hotmai-com
+{
+    display: flex;
+    justify-content: center;
+}
+.asesora-de-ventas-meluvi-diciembre-2018-marzo-2019-representante-de-atencion-al-cliente-bapro-s-a-julio-2020-actualidad {
+    display: flex;
+    justify-content:center ;
+}
+.licenciatura-en-gestion-de-tecnologia-de-la-informacion-universidad-argentina-de-la-empresa-en-curso {
+    display: flex;
+    justify-content: center;
+}
+.microsoft-excel-microsoft-world-visual-code-studio{
+    display: flex;
+    justify-content: center;
+}
+.idiomas-ingles-nivel-intermedio{
+    display: flex;
+    justify-content: center;
+}
+
+.curriculumvitae{
+   
+        box-sizing: border-box;
+        color: #000000;
+        text-align: center;
+        font: 700 italic 48px 'Inter', sans-serif;
+        width: 841px; 
+        height: 110px;
+        justify-content: center;
+        }
