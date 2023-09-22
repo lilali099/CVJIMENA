@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    flex: 20%;
+    background-color: #cb7676;
+    width: 500%;
+    height:5em;
+    flex-shrink: 0;
+    padding: 2%;
+}
+html{
+    font-size: 16px;
+}
+.navboton{
+    display: flex;
+    background-color: #e4b6b6;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+a {
+    color: #000000;
+    text-align: center;
+    font: 400 20px 'Inika', sans-serif;
+    position: relative;
+    width: 164px;
+    height: 28px;
+    justify-content:center;
+
+}
+a:hover{
+    filter: brightness(110%);
+}
+.rayaenlace{
+    text-decoration: none;  
+}
+nav{
+    display: flex;
+    justify-content:flex-start;
+    margin-top:0;
+    padding: 0;
+    gap: 10rem;
+}
+body{
+    background-color: #ede5e0;
+    width: 65%;
+    height: 248px;
+    font-weight: 400;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    width: 80%;
+}
+footer{
+    background-color: #cb7676;
+    width: 500%;
+    height: 2em;
+    flex:20%;
+    flex-shrink: 0;
+}
+
+img{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 10px;
+    margin-right: 20px;
+    float:left;
+    width: 30%;
+    height: auto;
+   }
+   .rectangle-18{
+    flex: 30%;
+    background: #cb7676;
+    border-radius: 10px;
+    width: 150%;
+    height: 353px;
+    position: relative;
+    }
+.nombre-y-apelldo-fernandez-jimena-dni-41459611-direccion-paris-1444-celular-1153376302-mail-jimenafernandez-2010-hotmai-com
+{
+   
+    color: #0e0d0d;
+    text-align: justify;
+    font: 400 1rem 'Bona Nova', sans-serif; 
+    position: center;
+    width: 818px;
+    height: 300px;
+}
+.asesora-de-ventas-meluvi-diciembre-2018-marzo-2019-representante-de-atencion-al-cliente-bapro-s-a-julio-2020-actualidad 
+{
+    color: #0e0d0d;
+    text-align: justify;
+    font: 400  1rem 'Bona Nova', sans-serif;
+    position: center;
+    width: 818px;
+    height:300px;
+}
+.licenciatura-en-gestion-de-tecnologia-de-la-informacion-universidad-argentina-de-la-empresa-en-curso {
+    
+    color: #0e0d0d;
+    text-align: justify;
+    font: 400  1rem 'Bona Nova', sans-serif;
+    position: center;
+    width: 818px;
+    height: 300px;
+}
+
+.microsoft-office-visual-code-studio{
+ 
+    color: #0e0d0d;
+    text-align: justify;
+    font: 400  1rem 'Bona Nova', sans-serif;
+    position: center;
+    width: 818px;
+    height: 300px;
+}
+
+.curriculumvitae{
+        display: flex;
+        color: #000000;
+        font: 700 italic 3rem 'Inter', sans-serif;
+        width: 70%; 
+        height: 110px;
+        align-items: center;
+        justify-content: center;
+        }
+.datospersonales{
+        color: #000000;
+        text-align: left;
+        font: 400 2rem 'Alike', sans-serif;
+        position: relative;
+        width: 404px;
+        height: 56px;
+    }
+    .competencias{
+        color: #000000;
+       text-align: left;
+    font: 400 2rem 'Alike', sans-serif;
+     position: relative;
+     width: 404px;
+     height: 56px;
+       
+    }
+
+    .datospersonales{
+        color: #000000;
+        text-align: left;
+     font: 400 2rem 'Alike', sans-serif;
+      position: relative;
+      width: 404px;
+      height: 56px;
+
+    }
+    .experiencia {
+        color: #000000;
+        text-align: left;
+     font: 400 2rem 'Alike', sans-serif;
+      position: relative;
+      width: 404px;
+      height: 56px;
+    }
+    .educacion{
+        color: #000000;
+        text-align: left;
+     font: 400 2rem 'Alike', sans-serif;
+      position: relative;
+      width: 404px;
+      height: 56px;
+    }
+   
+        
+    
+    @media( max-width: 690px) {
+        nav{
+            flex-direction: column;
+            gap: 2rem;
+    
+        }
+        .curriculumvitae {
+            font-size: 25px;
+            justify-content: center;
+            
+          }
+        header{
+            height:15em;
+            width: 90%;
+        }
+        img {
+            max-width: 100%;
+            width: 25%;
+            height: auto;
+    
+          }
+    
+          .datospersonales{
+            font-size: 24px;
+          }
+          .educacion{
+            font-size: 25px;
+          }
+          .experiencia{
+            font-size: 25px;
+          }
+          .competencias{
+            font-size: 25px;
+          }
+          .rectangle-18{
+            width: 550px;
+            height: auto;
+          }
+          footer{
+            height:3em;
+            width: 90%;
+          }
+          .rectangle-18{
+            height:70%;
+            width: 70%;
+          }
+          body{
+            height: auto;
+            width: 60%;
+          }
+          a,p{
+            font-size: 14px;
+
+          }
+    }
+    
